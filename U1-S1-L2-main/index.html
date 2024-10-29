@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tabelle</title>
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+	<body>
+		<header>
+			<h2>CODICE EPICODE</h2>
+			<div class="logo">
+				<img
+					src="assets/img/EPICODE.png"
+					alt="Logo Epicode"
+					width="100px" />
+			</div>
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html" title="Tabelle">Tabelle</a>
+					</li>
+					<li>
+						<a href="form.html" title="Forms">Forms</a>
+					</li>
+					<li>
+						<a href="video.html" title="Video">Video</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<h1>TABELLE</h1>
+
+			<hr />
+
+			<section>
+				<article>
+					<h2>Tabella semplice</h2>
+
+					<table>
+						<caption>Tabella angrafica</caption>
+						<thead>
+							<tr>
+								<th>Nome</th>
+								<th>Cognome</th>
+								<th>Email</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Aldo</td>
+								<td>Bianchi</td>
+								<td>aldo@bianchi.ikt</td>
+							</tr>
+							<tr>
+								<td>Giovanna</td>
+								<td>Verdi</td>
+								<td>giovanna@verdi.net</td>
+							</tr>
+							<tr>
+								<td>Maria</td>
+								<td>Neri</td>
+								<td>maria@neri.org</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td colspan="3">Totale utenti: 3</td>
+							</tr>
+						</tfoot>
+					</table>
+				</article>
+
+				<hr />
+
+				<article>
+					<h2>Tabella grafica</h2>
+
+					<table>
+						<tbody>
+							<tr>
+								<td>Cella 1 riga 1</td>
+								<td>Cella 2 riga 1</td>
+								<td>Cella 3 riga 1</td>
+								<td>Cella 4 riga 1</td>
+							</tr>
+							<tr>
+								<td rowspan="2">Cella 1 riga 2-3</td>
+								<td colspan="2">Cella 2-3 riga 2</td>
+								<td>Cella 4 riga 2</td>
+							</tr>
+							<tr>
+								<td colspan="3">Cella 2-3-4 riga 3</td>
+							</tr>
+						</tbody>
+					</table>
+				</article>
+			</section>
+		</main>
+
+		<hr />
+
+		<footer>Epicode &copy;2024</footer>
+	</body>
+</html>
